@@ -1,0 +1,18 @@
+html {
+    background: url(Images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.top:hover {
+    background-color: #303030;
+}
