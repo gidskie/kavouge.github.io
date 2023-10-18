@@ -1,8 +1,3 @@
-html {
-    background: url(Images/background.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 body {
     margin: 0;
     padding: 0;
@@ -15,4 +10,19 @@ body {
 }
 .top:hover {
     background-color: #303030;
+}
+footer{
+    
+    background-color: #000000;
+}
+.bottom li{
+    list-style: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+}
+.bottom a{
+    text-decoration: none;
 }
