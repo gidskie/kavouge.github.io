@@ -6,8 +6,9 @@
 }
 
 .login {
+    font-family: Montserrat;
     text-align: center;
-    margin: 20px;
+    margin: 50px;
     padding: 20px;
     width: 300px;
     background-color: #ffffff;
