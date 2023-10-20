@@ -6,6 +6,7 @@
 }
 
 .register {
+    font-family: Montserrat;
     text-align: center;
     margin: 20px;
     padding: 20px;
@@ -26,7 +27,7 @@
     transition: all 0.3s;
 }
 
-.register input[type="submit"] {
+.register button{
     width: 100%;
     background-color: #000000;
     color: #fff;
@@ -43,3 +44,4 @@
     text-align: center;
     font-size: 13px;
 }
+
