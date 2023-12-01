@@ -51,7 +51,7 @@ nav h1 {
     width: 100%;
 }
 #about {
-    background: url(images/about.png);
+    background: url(Images/about.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0px;
@@ -127,7 +127,7 @@ nav h1 {
     color: #FFEEDA;
 }
 #contact {
-    background: url(images/about.png);
+    background: url(Images/about.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0px;
