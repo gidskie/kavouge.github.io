@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Poppins;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: #A1733D;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+
+nav h1 {
+    margin: 0;
+    color: #FFEEDA;
+    margin-left: -45%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #FFEEDA;
+    text-decoration: none;
+    font-weight: bold;
+}
+#one {
+    background: url(Images/Kavogueback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#about {
+    align-items: center;
+    background: url(images/about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+    height: 70vh;
+    width: 100%;
+    color: #FFEEDA;
+}
+#about img {
+    height: 30%;
+    width: 30%;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text {
+    letter-spacing: 1px;
+    text-align: right;
+    
+}
+.about-text h1 {
+    color: #ffeeda;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5 {
+    color: #ffeeda;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p {
+    color:#FFEEDA;
+    text-justify: inter-word;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.about-text button {
+    background-color: #ffd19a;
+    color: black;
+    font-family: Poppins;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.about-text button:hover {
+    background-color: transparent;
+    border: 2px solid #A1733D;
+    color: #FFEEDA;
+}
+#contact {
+    align-items: center;
+    background: url(images/about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+    height: 70vh;
+    width: 100%;
+    color: #FFEEDA;
+}
+ #contact h1 {
+        color: #ffd19a;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 50px;
+        display: block;
+        margin-top: 10px;
+        
+        
+    
+        
+    }
+    
+    .box {
+        background-color: #fff;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        float: right;
+        border: 1px solid #ddd;
+        background-color: #ffd19a;
+        max-width: 700px;
+        width: 100%;
+        
+    }
+    .about-text {
+        
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    .form-control {
+        border-radius: 0;
+        height: auto;
+        padding: 10px;
+        width: 400px;
+    }
+    
+    .btn {
+        background-color: #A1733D;
+        color: black;
+        border-radius: 0;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .btn-primary {
+        font-family: Poppins;
+        font-weight: bold;
+        text-decoration: none;
+        border: 2px solid transparent;
+        padding: 13px 30px;
+        border-radius: 30px;
+        transition: .4s;
+
+    }
+    .btn:hover {
+        background-color: transparent;
+        border: 2px solid #A1733D;
+        color: #FFEEDA;
+        color: #333;
+     
+    
+    
+      
+    }
+
+
