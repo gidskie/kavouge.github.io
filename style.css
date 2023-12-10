@@ -12,14 +12,18 @@ body {
 }
 
 .top {
-    background-color: #A1733D;
+    background-color: transparent;
     padding: 10px;
 }
 
 nav {
+    position: relative;
+    margin-right: 5em;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-weight: 400;
+    font-size: large;
 }
 
 #logo {
@@ -28,9 +32,10 @@ nav {
 }
 
 nav h1 {
-    margin: 0;
+    position: absolute;
     color: #FFEEDA;
-    margin-left: -75%;
+    margin-left: 5em;
+    
 }
 
 .nav-links {
@@ -139,7 +144,7 @@ nav h1 {
 }
 #contact h1{
     text-align: right;
-    margin-right: 41%;
+    margin-right: 46%;
     font-size: 30px;
 }
 #contact img{
@@ -154,16 +159,21 @@ nav h1 {
     justify-content: flex-end;
 }
 .box {
+    position: absolute;
     border: solid;
     border-radius: 5px;
-    height: 50%;
+    height: 50% ;
     width: 50%;
+    margin-right: 25%;
     background-color: #FFEEDA;
 }
 .form-group {
+    position: relative;
+    margin-top:1em;
     border-radius: 5px;
     margin-bottom: 15px;
     margin-left: 20px;
+    justify-content: space-between;
 }
 
 .form-control {
@@ -178,8 +188,11 @@ nav h1 {
 }
 
 .btn-primary {
+    position: absolute;
+    font-size: large;
+    margin-top: 10em;
     margin-bottom: 20px;
-    margin-left: 20%;
+    margin-left: -34%;
     font-weight: bolder;
     border-radius: 20px;
     background-color: #ffd19a;
@@ -188,3 +201,27 @@ nav h1 {
     border: none;
     cursor: pointer;
 }
+.fa {
+    position: relative;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    left: 20em;
+    top: 2em;
+  }
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+.fa-instagram{
+    color: #9E8059;
+  }
+.fa-facebook {
+    color: #9E8059;
+  }
+.fa-twitter {
+    color: #9E8059;
+  }
+
