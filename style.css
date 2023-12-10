@@ -224,4 +224,9 @@ nav h1 {
 .fa-twitter {
     color: #9E8059;
   }
-
+.contact-details {
+    position: relative;
+}
+.contact-details h3 {
+    color: #624727;
+}
