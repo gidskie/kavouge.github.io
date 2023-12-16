@@ -256,21 +256,7 @@ nav h1 {
     color: #FFEEDA;
     position: relative; 
     justify-content: space-around;
-}
-#download .box {
-    position: absolute;
-    border: solid;
-    border-radius: 5px;
-    height: 50% ;
-    width: 50%;
-    margin-right: 25%;
-    background-color: #976c3a;
-}
-#download .search {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
+} 
 
 #download .search input {
     width: 200px;
@@ -289,7 +275,7 @@ nav h1 {
 #download .search button:hover {
     background-color: #0056b3;
 }
-/*#download .container {  
+#download .container {  
     flex-direction: row;
     display: flex;
     grid-template-columns: repeat(4, 1fr);
@@ -297,39 +283,21 @@ nav h1 {
     justify-content: center;
 }
 
-#download .item {
-    position: relative;
-    flex-flow: row;
-    justify-content: flex-start;
-    flex-direction: row;
-    background-color: #f0f0f0;
-    padding: 30px;
-    text-align: center;
-    font-size: 10px;
-    border-radius: 20px;
-    width: 50px;
-    height: 50px;
-    flex-direction: row;
-} */
 #download .container {
-    display: flex;
-    flex-direction: column; /* Display items in a column */
-    align-items: center; /* Center items horizontally */
-    max-width: 1200px;
-    margin: 0 auto;
+    background-color: #FFFFFF;
+    max-width: 600px;
+    min-height: 40vh;
+    position: relative;
+    left: 20%;
+    border-radius: 30px;
 }
 
 #download .item {
-    background-color: #f0f0f0;
-    padding: 15px;
-    text-align: center;
-    font-size: 12px;
-    border-radius: 10px;
-    margin: 10px;
-    width: 250px;
+    background-color: #624727;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 180px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
-
-
-
-
-
