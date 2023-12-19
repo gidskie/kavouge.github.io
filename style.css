@@ -61,6 +61,8 @@ nav h1 {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0px;
+    margin-top: -70px;
+    font-size: 50px;
     height: 70vh;
     width: 100%;
     color: #FFEEDA;
@@ -138,7 +140,7 @@ nav h1 {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0px;
-    height: 70vh;
+    height: 100vh;
     width: 100%;
     color: #FFEEDA;
     position: relative;
@@ -161,13 +163,18 @@ nav h1 {
     justify-content: flex-end;
 }
 .box {
-    position: absolute;
+    display: flex;
     border: solid;
     border-radius: 5px;
-    height: 50% ;
+    height: 450px;
     width: 50%;
     margin-right: 25%;
     background-color: #FFEEDA;
+    justify-content: center;
+}
+.form-box {
+    display: inline-block;
+    width: 650px;
 }
 .form-group {
     position: relative;
@@ -181,7 +188,7 @@ nav h1 {
 .form-control {
     line-height: 1;
     background-color: #FFEEDA;
-    width: 50%;
+    width: 90%;
     padding: 10px;
     box-sizing: border-box;
     border: none; 
@@ -194,7 +201,7 @@ nav h1 {
     font-size: large;
     margin-top: 10em;
     margin-bottom: 20px;
-    margin-left: -34%;
+    margin-left: -275px;
     font-weight: bolder;
     border-radius: 20px;
     background-color: #ffd19a;
@@ -203,15 +210,19 @@ nav h1 {
     border: none;
     cursor: pointer;
 }
+.icons {
+    width: 300px;
+}
 .fa {
+    display: inline;
     position: relative;
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-    left: 20em;
-    top: 2em;
+    top: 300px;
+    left: 30px;
   }
 .fa:hover {
     opacity: 0.7;
@@ -227,14 +238,15 @@ nav h1 {
     color: #9E8059;
   }  
 .contact-details {
-    position: relative;
+    display: inline-block;
     font-size: 20px;
-    width: 10em;
+    width: 500px;
+    height: 200px;
     text-align: center;
     text-decoration: none;
     justify-content: center;
-    left: 30em;
-    bottom: 14.5em;
+    margin-left: -290px;
+    margin-bottom: 2000px;
 }
 .contact-details h3 {
     color: #624727;
@@ -256,20 +268,28 @@ nav h1 {
     color: #FFEEDA;
     position: relative; 
     justify-content: space-around;
+    overflow: hidden;
 } 
 
 #download .search input {
+    position: relative;
     width: 200px;
     padding: 5px;
+    left: 28.3rem;
+    top: 1em;
     border: 1px solid #ccc;
 }
 
 #download .search button {
+    position: absolute;
     padding: 5px 10px;
     background-color: #007bff;
     color: white;
     border: none;
     cursor: pointer;
+    top: 1em;
+    left: 2.5rem;
+
 }
 
 #download .search button:hover {
@@ -284,11 +304,12 @@ nav h1 {
 }
 
 #download .container {
+    position: relative;
     background-color: #FFFFFF;
     max-width: 600px;
     min-height: 40vh;
     position: relative;
-    left: 20%;
+    left: 40rem;
     border-radius: 30px;
 }
 
@@ -300,4 +321,48 @@ nav h1 {
     margin-top: 180px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+#download .list1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    bottom: 6.7em;
+    left: 11.1em;
+}
+
+#download .list2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    right: 26.4em;
+}
+
+.container ul {
+    list-style-type: none;
+}
+
+.download-container-text {
+    position: relative;
+    margin-left: 100px;
+}
+
+.container-text1 {
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.container-text1 span {
+    color: #FFD9AD;
+    font-size: 40px;
+    line-height: 2px;
+    font-weight: 600;
+}
+
+.container-text2 {
+    margin-left: 80px;
+    margin-top: -70px;
+    font-size: 50px;
+    color: #FFD9AD;
+    text-decoration: underline;
 }
