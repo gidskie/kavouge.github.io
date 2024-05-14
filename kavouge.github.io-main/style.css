@@ -24,23 +24,27 @@ nav {
     justify-content: space-between;
     font-weight: 400;
     font-size: large;
+    height: 100px;
+
 }
 
 #logo {
     margin-right: 0px;
-    margin-left: 20px;
+    margin-left: -400px;
+    height: 300px;
+    width: 300px;
 }
 
 nav h1 {
     position: absolute;
     color: #FFEEDA;
-    margin-left: 5em;
+    margin-left: 70px;
     
 }
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 .nav-links a {
@@ -52,15 +56,28 @@ nav h1 {
     background: url(Images/Kavogueback.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 700px;
     width: 100%;
 }
+.tagline {
+    color: #FFEEDA;
+    font-size: 30px;
+    margin-left: 230px;
+    margin-top: 100px;
+    line-height: 1;
+}
+.tagline p {
+    font-size: 20px;
+}
+/* About Section */
 #about {
     background: url(Images/about.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0px;
-    height: 70vh;
+    margin-top: -70px;
+    font-size: 50px;
+    height: 100%;
     width: 100%;
     color: #FFEEDA;
     display: flex; 
@@ -131,12 +148,13 @@ nav h1 {
     border: 2px solid #A1733D;
     color: #FFEEDA;
 }
+/* Contact Section */
 #contact {
     background: url(Images/about.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0px;
-    height: 70vh;
+    height: 100vh;
     width: 100%;
     color: #FFEEDA;
     position: relative;
@@ -159,13 +177,18 @@ nav h1 {
     justify-content: flex-end;
 }
 .box {
-    position: absolute;
+    display: flex;
     border: solid;
     border-radius: 5px;
-    height: 50% ;
-    width: 50%;
-    margin-right: 25%;
+    height: 450px;
+    width: 80%;
+    margin-right: 10%;
     background-color: #FFEEDA;
+    justify-content: center;
+}
+.form-box {
+    display: inline-block;
+    width: 750px;
 }
 .form-group {
     position: relative;
@@ -179,7 +202,7 @@ nav h1 {
 .form-control {
     line-height: 1;
     background-color: #FFEEDA;
-    width: 50%;
+    width: 90%;
     padding: 10px;
     box-sizing: border-box;
     border: none; 
@@ -188,11 +211,12 @@ nav h1 {
 }
 
 .btn-primary {
+    width: 300px;
     position: absolute;
     font-size: large;
     margin-top: 10em;
     margin-bottom: 20px;
-    margin-left: -34%;
+    margin-left: -450px;
     font-weight: bolder;
     border-radius: 20px;
     background-color: #ffd19a;
@@ -201,15 +225,20 @@ nav h1 {
     border: none;
     cursor: pointer;
 }
+.icons {
+    width: 300px;
+}
 .fa {
+    display: inline;
     position: relative;
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-    left: 20em;
-    top: 2em;
+    top: 300px;
+    left: 75px;
+    margin-left: 15px;
   }
 .fa:hover {
     opacity: 0.7;
@@ -223,5 +252,169 @@ nav h1 {
   }
 .fa-twitter {
     color: #9E8059;
-  }
+  }  
+.contact-details {
+    display: inline-block;
+    font-size: 20px;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    margin-left: -340px;
+    margin-bottom: 2000px;
+}
+.contact-details h3 {
+    color: #624727;
+    padding-left: 3em;
+}
+.contact-details p {
+    position: relative;
+    color: #9E8059;
+    left: 30px;
+}
+/* b Section */
+#download {
+    background: url(Images/about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 150px;
+    height: 100%;
+    width: 100%;
+    color: #FFEEDA;
+    position: relative; 
+    justify-content: space-around;
+    overflow: hidden;
+} 
 
+#download .search input {
+    position: relative;
+    width: 200px;
+    padding: 5px;
+    left: 28.3rem;
+    top: 1em;
+    border: 1px solid #ccc;
+}
+
+#download .search button {
+    position: absolute;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    top: 1em;
+    left: 2.5rem;
+
+}
+
+#download .search button:hover {
+    background-color: #0056b3;
+}
+#download .container {  
+    flex-direction: row;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+#download .container {
+    position: absolute;
+    background-color: #FFEEDA;
+    max-width: 600px;
+    min-height: 40vh;
+    left: 50rem;
+    bottom: 20rem;
+    border-radius: 30px;
+    
+}
+
+#download .item {
+    background-color: #624727;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 180px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#download .list1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    bottom: 6.7em;
+    left: 11.1em;
+}
+
+#download .list2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    right: 26.4em;
+}
+
+.downloadbuttoncontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container ul {
+    list-style-type: none;
+}
+
+.download-container-text {
+    position: relative;
+    margin-left: 100px;
+}
+
+.container-text1 {
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.container-text1 span {
+    color: #FFD9AD;
+    font-size: 40px;
+    line-height: 2px;
+    font-weight: 600;
+}
+
+.container-text2 {
+    margin-left: 80px;
+    margin-top: -70px;
+    font-size: 50px;
+    color: #FFD9AD;
+    text-decoration: underline;
+}
+.container-text3 {
+    margin-left: 25px;
+    font-size: 20px;
+    margin-bottom: 3px;
+    color: #F7F8F3;
+}
+.button-shop {
+    background-color: #ffd19a;
+    color: black;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 12px 50px;
+    border-radius: 30px;
+    transition: .4s;
+    position: relative;
+    margin-top: -180px;
+    margin-left: 400px;
+    width: 400px;
+}
+.button-shop:hover {
+    background-color: transparent;
+    border: 2px solid #A1733D;
+    color: #FFEEDA;
+}
